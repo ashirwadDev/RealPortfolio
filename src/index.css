@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Poppins:wght@400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  @apply bg-[#0A0A0A] text-white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.glow {
+  text-shadow: 0 0 8px #00c2a8, 0 0 16px #00c2a8, 0 0 24px #00c2a8;
+}
