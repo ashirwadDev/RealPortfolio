@@ -34,7 +34,7 @@ const AnimatedIntro = () => {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1, duration: 1 }}
-            className="text-emerald-400 text-3xl md:text-5xl font-bold mt-3"
+            className="text-emerald-400 text-3xl text-center md:text-5xl font-bold mt-3"
           >
             I’m Ashirwad Dwivedi
           </motion.h1>
